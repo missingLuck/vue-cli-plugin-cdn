@@ -6,7 +6,7 @@ module.exports = class StaticServerPlugin {
     constructor(options = {}) {
         const {
             host = '0.0.0.0',
-            port = 8080,
+            port = 38003,
             // 相对于webpack的输出目录, 默认值为输出目录
             public: publicPath = 'auto'
         } = options
