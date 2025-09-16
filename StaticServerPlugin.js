@@ -11,6 +11,7 @@ module.exports = class StaticServerPlugin {
             public: publicPath = 'auto'
         } = options
 
+        console.log(options)
         this.options = {
             host,
             port,
