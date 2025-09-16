@@ -16,7 +16,7 @@ module.exports = (api, options) => {
             cdnPublicPath = publicPath
         } else if (devHost) {
             const urlInstances = new URL(`${devProtocol}://${devHost}/`)
-
+            console.log(`devHost: ${urlInstances}`, devProtocol, devHost)
             if (devHost === 'useLocalIp') {
                 const ip = require('internal-ip')
                 urlInstances.hostname = ip.v4.sync()
