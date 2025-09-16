@@ -3,7 +3,7 @@ module.exports = (api, options) => {
         publicPath = '',
         devProtocol = 'http',
         devHost = 'useLocalIp',
-        devPort = 8080,
+        devPort = 38003,
         outputPath, // 相对于webpack的输出目录
         filename
     } = options.pluginOptions?.cdn ?? {}
